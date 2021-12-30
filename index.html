@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/calculator.png">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="main-display">
+        <div class="title-div">
+            <h1 class="title">Calculator</h1>
+        </div>
+        <div class="display-div">
+            <label for="display"></label>
+            <input id="display" class="display" type="text" placeholder="0">
+        </div>
+        <div class="operation-div">
+            <div class="section-one">
+                <button class="button" id="clear">AC</button>
+                <button class="button" id="backspace"><i class="fas fa-backspace"></i></button>
+                <button class="button" id="square">x<sup>2</sup></button>
+                <button class="button" id="fraction">S <=> D</button>
+            </div>
+
+            <div class="section-two">
+                <div class="numpad">
+                    <button class="num number seven">7</button>
+                    <button class="num number eight">8</button>
+                    <button class="num number nine">9</button>
+                    <button class="num number four">4</button>
+                    <button class="num number five">5</button>
+                    <button class="num number six">6</button>
+                    <button class="num number one">1</button>
+                    <button class="num number two">2</button>
+                    <button class="num number three">3</button>
+                    <button class="num number open">(</button>
+                    <button class="num number zero">0</button>
+                    <button class="num number close">)</button>
+                </div>
+
+                <div class="operators">
+                    <button class="num" id="plus"><i class="fas fa-plus"></i></button>
+                    <button class="num" id="minus"><i class="fas fa-minus"></i></button>
+                    <button class="num" id="root"><i class="fas fa-square-root-alt"></i></button>
+                    <button class="num" id="divide"><i class="fas fa-divide"></i></button>
+                    <button class="num" id="multiply"><i class="fas fa-times"></i></button>
+                    <button class="num" id="log">log</button>
+                    <button class="num" id="sin">sin</button>
+                    <button class="num" id="cos">cos</button>
+                    <button class="num" id="tan">tan</button>
+                    <button class="num dot" id="dot">.</button>
+                    <button class="num" id="inverse">x<sup>-1</sup></button>
+                    <button class="num" id="equals"><i class="fas fa-equals"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/f6a1fc2dc1.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
