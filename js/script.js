@@ -94,7 +94,7 @@ sin.addEventListener("click", function () {
     let ans = evaluatePostfix(postfix);
 
     if (ans !== undefined && !isNaN(ans) && ans !== null)
-        display.value = Math.sin(ans * (180 / Math.PI));
+        display.value = Math.sin(ans * (Math.PI/ 180));
     else
         alert("Syntax Error: Please check entered expression again!");
 });
@@ -104,7 +104,7 @@ cos.addEventListener("click", function () {
     let ans = evaluatePostfix(postfix);
 
     if (ans !== undefined && !isNaN(ans) && ans !== null)
-        display.value = Math.cos(ans * (180 / Math.PI));
+        display.value = Math.cos(ans * (Math.PI / 180));
     else
         alert("Syntax Error: Please check entered expression again!");
 });
@@ -114,7 +114,7 @@ tan.addEventListener("click", function () {
     let ans = evaluatePostfix(postfix);
 
     if (ans !== undefined && !isNaN(ans) && ans !== null)
-        display.value = Math.tan(ans * (180 / Math.PI));
+        display.value = Math.tan(ans * (Math.PI / 180));
     else
         alert("Syntax Error: Please check entered expression again!");
 });
