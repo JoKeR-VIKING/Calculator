@@ -134,7 +134,7 @@ root.addEventListener("click", function () {
     let ans = evaluatePostfix(postfix);
 
     if (ans !== undefined && !isNaN(ans) && ans !== null)
-        display.value = Math.root(ans);
+        display.value = Math.sqrt(ans);
     else
         alert("Syntax Error: Please check entered expression again!");
 });
